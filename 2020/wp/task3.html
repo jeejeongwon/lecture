@@ -1,0 +1,80 @@
+<!DOCTYEPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>  Input Form</title>
+ 
+ <style>
+ 
+	h1{
+	background-color:green; 
+	color:white;
+	text-align:center-left;
+	height:80px;
+	padding 10px 10px ; 
+	}
+	
+	.inputbox{
+	color:gray;
+	background-color:white;
+	}
+	
+	.checkbox,.radiobutton{
+		width:200;
+		height:100;
+		margin-botton:20px;
+		padding:50px 10px;
+		display : inline-block
+	}
+	
+	.box{
+	width:400px;
+	height:70px;
+	padding:50px 10px;
+	text-align:center-left;
+	font-family:SansSerif;
+	box-shadow: 5px 5px 5px red;}
+	
+ </style>
+</head>
+
+<body>
+
+ <h1>Input form</h1>
+
+<div class="inputbox">
+<form action="" >
+<p><label>Name <br><input type="text" name"id"><br></label></p>
+<p><label>Email <br><input type="email" name"password"><br></label></p>
+<p><label>Subject <br><input type="text"><br></label><br></p>
+</div>
+
+<div class ="box">
+<code>
+ <ul id="list" >
+	<li>국어</li>
+	<li>영어</li>
+	<li>수학</li>
+</ul>
+</code>
+</div>
+
+</form>
+
+
+<div class="checkbox">
+<input type="checkbox" name="Milk"  value="Milk">Milk<br>
+<input type="checkbox" name="Sugar"  value="Sugar">Sugar<br>
+<input type="checkbox" name="Lemon"  value="Lemon" disabled="disabled">Lemon(Disabled)<br>
+</div>
+
+<div class="radiobutton">
+<input type="radio" name="gender" value="male" checked="checked">Male<br>
+<input type="radio" name="gender" value="female">Female<br>
+<input type="radio" name="gender" value="DN" disabled="disabled">Don't know (Disabled)<br>
+</div>
+
+<br>
+<input type="submit" value=" Send > " color="green">
+</body>
+</html>
